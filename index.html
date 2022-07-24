@@ -1,11 +1,14 @@
 <script>
-var arr;
-    fetch('https://galasd4w3.pythonanywhere.com/?mikud=7520719')
+    var arr;
+    var url="https://galasd4w3.pythonanywhere.com/?mikud=7523816"
+    fetch(url)
         .then(response => response.json())
         .then(data => arr=data)
-arr.mikud
-arr.city
-arr.street
-arr.numhouse
-document.write(arr.city,arr.street,arr.numhouse)
+    arr.mikud//.replace("\r","")
+    arr.city
+    arr.street
+    arr.numhouse
+    console.log(arr.city,arr.street,arr.numhouse)
+
+
 </script>
