@@ -1,0 +1,11 @@
+<script>
+var arr;
+    fetch('https://galasd4w3.pythonanywhere.com/?mikud=7520719')
+        .then(response => response.json())
+        .then(data => arr=data)
+arr.mikud.replace("\r","")
+arr.city
+arr.street
+arr.numhouse
+console.log(arr.city,arr.street,arr.numhouse)
+</script>
