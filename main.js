@@ -1,4 +1,4 @@
-  function f() {
+    function f() {
         var arr;
 
         var url="https://galasd4w3.pythonanywhere.com/?mikud="+ document.getElementById("mikud").value
@@ -11,7 +11,7 @@
         arr.street
         arr.numhouse
  */
-        console.log(arr.city+""+arr.street+""+arr.numhouse)
-       // document.getElementById("all").value=
+        console.log(arr)
+        document.getElementById("all").value=arr
 
     }
