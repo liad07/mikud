@@ -1,6 +1,6 @@
 # mikud api
 ## javascript
-javascript ```
+```javascript
    var url="https://galasd4w3.pythonanywhere.com/?mikud="+ document.getElementById("mikud").value
         fetch(url)
             .then(response => response.json())
