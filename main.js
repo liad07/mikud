@@ -4,7 +4,7 @@
         var  street=""
         var  numhouse=""
         var all=""
-        var url="https://galasd4w3.pythonanywhere.com/?mikud="+ document.getElementById("mikud").value
+        var url="https://galasd4w3.pythonanywhere.com/?token=vPl9neb4IBg*NzXx&mikud="+ document.getElementById("mikud").value
         fetch(url)
             .then(response => response.json())
             .then(data =>document.getElementById("all").textContent=data.city+","+data.street+","+data.numhouse)
